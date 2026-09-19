@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "TayBarro";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("TayBarro"),
+    url("./assets/font/TAYBarro.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "TayWoodrow";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("TayWoodrow"),
+    url("./assets/font/TAYWoodrow.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Letterpress Sans";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("Letterpress Sans"),
+    url("./assets/font/Letterpress Sans Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Tropic";
+  font-style: normal;
+  font-weight: bold;
+  src:
+    local("Tropic"),
+    url("./assets/font/Tropic Bold Trial.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "UDC Annata Round";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("UDC Annata Round"),
+    url("./assets/font/UDC Annata-Round Trial.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "UDC Big N Juicy";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("UDC Big N Juicy"),
+    url("./assets/font/UDC Big N Juicy Trial.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "UDC Fast And Loose Small";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("UDC Fast And Loose Small"),
+    url("./assets/font/UDC Fast And Loose-Small-Trial.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "UDC Sign Painter";
+  font-style: normal;
+  font-weight: bold;
+  src:
+    local("UDC Sign Painter"),
+    url("./assets/font/UDC Sign Painter-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "UDC Working Man Sans Rough";
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local("UDC Working Man Sans Rough"),
+    url("./assets/font/UDC Working Man Sans Rough Trail.otf") format("opentype");
+}
+
+@theme {
+  --default-font-family: "UDC Working Man Sans Rough", system-ui, sans-serif;
+}
+
+body {
+  background-color: #fbfaf3;
+
+}
